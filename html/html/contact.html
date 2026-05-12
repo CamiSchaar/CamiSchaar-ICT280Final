@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GreenTech Solutions - Contact</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <nav class="navbar" aria-label="Main Navigation">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main class="container">
+
+        <h1>Contact GreenTech Solutions</h1>
+
+        <p>Email: company@email.com</p>
+        <p>Phone: (555) 555-5555</p>
+        <p>Address: 123 Green Street</p>
+
+        <h2>Send Us a Message</h2>
+
+        <form id="contactForm">
+
+            <label for="fullname">Full Name:</label><br>
+
+            <input type="text"
+                   id="fullname"
+                   name="fullname"
+                   required><br><br>
+
+            <label for="useremail">Email:</label><br>
+
+            <input type="email"
+                   id="useremail"
+                   name="useremail"
+                   required><br><br>
+
+            <label for="messagebox">Message:</label><br>
+
+            <textarea id="messagebox"
+                      name="messagebox"
+                      rows="5"
+                      cols="30"
+                      required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="contactMessage" aria-live="polite"></p>
+
+    </main>
+
+    <script src="../javascript/script.js"></script>
+
+</body>
+</html>
